@@ -12,8 +12,7 @@ Below are images depicting the mechanical structure of the robot (Figure 1.1) an
 ---
 
 ### Assignment 1.1
-This assignment involves a closed-loop control system utilizing PD (Proportional, Derivative) control, with vision serving as the observation to provide feedback error.  
-To detect the target (ball), I implemented a color space and contour-based shape detection algorithm. Figure 1.3 below shows the detected ball using this vision-based system.  
+This assignment involves a closed-loop control system utilizing PD (Proportional, Derivative) control, with vision serving as the observation to provide feedback error. To detect the target (ball), I implemented a color space and contour-based shape detection algorithm. Figure 1.3 below shows the detected ball using this vision-based system.  
 
 #### Figure 1.3: Contour-Based Ball Detection
 <div align="center">
@@ -26,11 +25,13 @@ $$
 u(t) = K_p e(t) + K_d \frac{de(t)}{dt}
 $$
 
-Here:  
+Here:
+$$
 - \( K_p \): Proportional gain, which determines the response based on the current error.  
 - \( e(t) \): The error at the current time \( t \).  
 - \( K_d \): Derivative gain, which determines the response based on the rate of change of the error.  
 - \( \frac{de(t)}{dt} \): The rate of change of the error over time.
+$$
 
 
 The calculated control output is then converted into radians to control the servo motors, allowing the robot to adjust its movement and maintain its trajectory toward the ball.
