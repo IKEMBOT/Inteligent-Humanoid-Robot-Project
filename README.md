@@ -1,9 +1,7 @@
 # INTELLIGENT HUMANOID ROBOTICS PROJECT
 
 ### Assignment 1.0
-This assignment involves an open-loop system where a robot is controlled based on keyboard commands.  
-The Inverse Kinematics (IK) method is applied to control one leg of the Mini Darwin robot, which has six degrees of freedom (6-DOF).  
-Below are images depicting the mechanical structure of the robot (Figure 1.1) and the maze used in the experiment (Figure 1.2).
+This assignment involves an open-loop system where a robot is controlled based on keyboard commands. The Inverse Kinematics (IK) method is applied to control one leg of the Mini Darwin robot, which has six degrees of freedom (6-DOF). Below are images depicting the mechanical structure of the robot (Figure 1.1) and the maze used in the experiment (Figure 1.2).
 
 | **Figure 1.1: Mini Darwin Robot Leg** | **Figure 1.2: Maze Used for Robot Navigation** |
 |:--------------------------------------:|:---------------------------------------------:|
