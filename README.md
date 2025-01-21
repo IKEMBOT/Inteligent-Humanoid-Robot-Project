@@ -18,14 +18,11 @@ This assignment involves a closed-loop control system utilizing PD (Proportional
 <div align="center">
     <img src="https://github.com/user-attachments/assets/cca1b3d3-7f4f-4f67-888e-a93c2e468e0d" alt="Contour-Based Ball Detection" width="25%">
 </div>
-
 The middle of the frame acts as the **setpoint**, and the ball's coordinates are used to calculate the **error** by subtracting them from the setpoint. This error is passed to the PD controller, which computes the control output using the equation below:
-
 $$
 u(t) = K_p e(t) + K_d \frac{de(t)}{dt}
 $$
 
-Here:  
 Here:  
 - ![Kp](https://latex.codecogs.com/png.latex?K_p): Proportional gain, which determines the response based on the current error.  
 - ![et](https://latex.codecogs.com/png.latex?e(t)): The error at the current time \( t \).  
