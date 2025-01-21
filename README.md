@@ -5,19 +5,11 @@ This assignment involves an open-loop system where a robot is controlled based o
 The Inverse Kinematics (IK) method is applied to control one leg of the Mini Darwin robot, which has six degrees of freedom (6-DOF).  
 Below are images depicting the mechanical structure of the robot (Figure 1.1) and the maze used in the experiment (Figure 1.2).
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
+| **Figure 1.1: Mini Darwin Robot Leg** | **Figure 1.2: Maze Used for Robot Navigation** |
+|:--------------------------------------:|:---------------------------------------------:|
+| ![leg](https://github.com/user-attachments/assets/7fc8b985-e32f-465d-8ddc-ea9c76b6d44f) | ![maze](https://github.com/user-attachments/assets/814dc8d0-cae9-41fa-9520-87b2540903fd) |
 
-<div>
-    <img src="https://github.com/user-attachments/assets/7fc8b985-e32f-465d-8ddc-ea9c76b6d44f" alt="Mini Darwin Robot Leg" width="400"/>
-    <p style="text-align: center;">Figure 1.1: Mini Darwin Robot Leg</p>
-</div>
-
-<div>
-    <img src="https://github.com/user-attachments/assets/814dc8d0-cae9-41fa-9520-87b2540903fd" alt="Maze Used for Robot Navigation" width="400"/>
-    <p style="text-align: center;">Figure 1.2: Maze Used for Robot Navigation</p>
-</div>
-
-</div>
+---
 
 ### Assignment 1.1
 This assignment involves a closed-loop control system utilizing PD (Proportional, Derivative) control, with vision serving as the observation to provide feedback error.  
