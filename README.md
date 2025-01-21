@@ -17,7 +17,7 @@ To detect the target (ball), I implemented a color space and contour-based shape
 
 #### Figure 1.3: Contour-Based Ball Detection
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/ff95699c-2a78-4601-b3da-2e27df422240" alt="Contour-Based Ball Detection" width="10%">
+    <img src="https://github.com/user-attachments/assets/ff95699c-2a78-4601-b3da-2e27df422240" alt="Contour-Based Ball Detection" width="25%">
 </div>
 
 The middle of the frame acts as the **setpoint**, and the ball's coordinates are used to calculate the **error** by subtracting them from the setpoint. This error is passed to the PD controller, which computes the control output using the equation below:
