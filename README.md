@@ -19,7 +19,6 @@ This assignment involves a closed-loop control system utilizing PD (Proportional
     <p><strong>Figure 1.3: Contour-Based Ball Detection</strong></p>
 </div>
 
-
 The middle of the frame acts as the **setpoint**, and the ball's coordinates are used to calculate the **error** by subtracting them from the setpoint. This error is passed to the PD controller, which computes the control output using the equation below:
 
 $$
