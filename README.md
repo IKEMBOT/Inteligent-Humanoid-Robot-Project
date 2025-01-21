@@ -16,7 +16,9 @@ This assignment involves a closed-loop control system utilizing PD (Proportional
 To detect the target (ball), I implemented a color space and contour-based shape detection algorithm. Figure 1.3 below shows the detected ball using this vision-based system.  
 
 #### Figure 1.3: Contour-Based Ball Detection
-![contour](https://github.com/user-attachments/assets/ff95699c-2a78-4601-b3da-2e27df422240)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/ff95699c-2a78-4601-b3da-2e27df422240" alt="Contour-Based Ball Detection" width="400">
+</div>
 
 The middle of the frame acts as the **setpoint**, and the ball's coordinates are used to calculate the **error** by subtracting them from the setpoint. This error is passed to the PD controller, which computes the control output using the equation below:
 
