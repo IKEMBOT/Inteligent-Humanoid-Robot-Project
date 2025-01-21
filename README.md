@@ -14,10 +14,12 @@ Below are images depicting the mechanical structure of the robot (Figure 1.1) an
 ### Assignment 1.1
 This assignment involves a closed-loop control system utilizing PD (Proportional, Derivative) control, with vision serving as the observation to provide feedback error. To detect the target (ball), I implemented a color space and contour-based shape detection algorithm. Figure 1.3 below shows the detected ball using this vision-based system.  
 
-#### Figure 1.3: Contour-Based Ball Detection
 <div align="center">
     <img src="https://github.com/user-attachments/assets/cca1b3d3-7f4f-4f67-888e-a93c2e468e0d" alt="Contour-Based Ball Detection" width="25%">
+    <p><strong>Figure 1.3: Contour-Based Ball Detection</strong></p>
 </div>
+
+
 The middle of the frame acts as the **setpoint**, and the ball's coordinates are used to calculate the **error** by subtracting them from the setpoint. This error is passed to the PD controller, which computes the control output using the equation below:
 
 $$
