@@ -31,4 +31,5 @@ Here:
 - ![et](https://latex.codecogs.com/png.latex?e(t)): The error at the current time \( t \).  
 - ![Kd](https://latex.codecogs.com/png.latex?K_d): Derivative gain, which determines the response based on the rate of change of the error.  
 - ![detdt](https://latex.codecogs.com/png.latex?\frac{de(t)}{dt}): The rate of change of the error over time.
+
 The calculated control output is then converted into radians to control the servo motors, allowing the robot to adjust its movement and maintain its trajectory toward the ball.
