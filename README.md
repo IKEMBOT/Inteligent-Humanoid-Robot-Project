@@ -26,11 +26,12 @@ $$
 u(t) = K_p e(t) + K_d \frac{de(t)}{dt}
 $$
 
-Here:
-- \( K_p \): Proportional gain, which determines the response to the current error.  
+Here:  
+- \( K_p \): Proportional gain, which determines the response based on the current error.  
 - \( e(t) \): The error at the current time \( t \).  
-- \( K_d \): Derivative gain, which determines the response to the rate of change of the error.  
-- \( \frac{de(t)}{dt} \): The rate of change of the error.
+- \( K_d \): Derivative gain, which determines the response based on the rate of change of the error.  
+- \( \frac{de(t)}{dt} \): The rate of change of the error over time.
+
 
 The calculated control output is then converted into radians to control the servo motors, allowing the robot to adjust its movement and maintain its trajectory toward the ball.
 
